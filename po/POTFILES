@@ -1,0 +1,4 @@
+data/com.github.blueghostlabs.terrapack.desktop.in
+data/com.github.blueghostlabs.terrapack.appdata.xml.in
+data/com.github.blueghostlabs.terrapack.gschema.xml
+src/window.ui

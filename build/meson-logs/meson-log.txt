@@ -1,0 +1,38 @@
+Build started at 2020-02-08T13:57:42.315186
+Main binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.49.2
+Source dir: /home/phillipsj/Projects/terrapack
+Build dir: /home/phillipsj/Projects/terrapack/build
+Build type: native build
+Project name: terrapack
+Project version: 0.1.0
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Program desktop-file-validate found: YES (/usr/bin/desktop-file-validate)
+Adding test "Validate desktop file"
+Program appstream-util found: NO
+Program glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Adding test "Validate schema file"
+Found pkg-config: /usr/bin/pkg-config (0.29.1)
+Determining dependency 'glib-2.0' with pkg-config executable '/usr/bin/pkg-config'
+Called `/usr/bin/pkg-config --modversion glib-2.0` -> 0
+2.56.4
+Called `/usr/bin/pkg-config --cflags glib-2.0` -> 0
+-I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+Called `/usr/bin/pkg-config glib-2.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lglib-2.0
+Called `/usr/bin/pkg-config glib-2.0 --libs` -> 0
+-lglib-2.0
+Configuring config.rs using configuration
+Running command: /bin/cp /home/phillipsj/Projects/terrapack/build/src/config.rs /home/phillipsj/Projects/terrapack/src/config.rs
+--- stdout ---
+
+--- stderr ---
+
+
+Program /home/phillipsj/Projects/terrapack/build-aux/cargo.sh found: YES (/bin/sh /home/phillipsj/Projects/terrapack/build-aux/cargo.sh)
+Program build-aux/meson/postinstall.py found: YES (/home/phillipsj/Projects/terrapack/build-aux/meson/postinstall.py)
+Build targets in project: 7
+Found ninja-1.8.2 at /usr/bin/ninja

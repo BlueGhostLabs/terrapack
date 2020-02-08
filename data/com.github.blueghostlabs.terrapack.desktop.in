@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=terrapack
+Exec=terrapack
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
